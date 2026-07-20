@@ -26,11 +26,17 @@ include extension-ci-tools/makefiles/duckdb_extension.Makefile
 .PHONY: vcpkg-setup docker-up docker-down docker-status integration-test test-all test-debug test-simple-query test-multi-instance-pool-isolation test-issue-96-attach-loop test-spec047-us1 test-result-stream-registry-isolation test-spec047-us3 test-token-cache-isolation test-spec047-us-sec test-concurrent-reads help
 
 # Bootstrap vcpkg if not present.
-# Spec 052 PR #127 CI fix: check for the toolchain file specifically, not
-# just the directory. GitHub Actions cache restore creates an empty `vcpkg/`
-# parent when restoring `vcpkg/installed/` — the bare directory existed
-# without the bootstrap-shipped scripts, so `make debug` then ran without
-# -DCMAKE_TOOLCHAIN_FILE and find_package(simdutf) failed.
+# Spec 052 PR #127 CI fix: check for the toolchain file specifically, not just
+# the directory — a partially-populated `vcpkg/` (the bare directory without
+# the bootstrap-shipped scripts) would otherwise pass the guard, and `make
+# debug` would then run without -DCMAKE_TOOLCHAIN_FILE and fail in
+# find_package(simdutf).
+#
+# The original trigger was a GitHub Actions cache restore creating an empty
+# `vcpkg/` parent while restoring `vcpkg/installed/`. No workflow caches that
+# path any more (the vcpkg binary cache lives in `vcpkg_bincache/`), so that
+# specific route is gone — but the file check is strictly more robust than a
+# directory check, so it stays.
 vcpkg-setup:
 	@if [ ! -f "$(VCPKG_TOOLCHAIN)" ]; then \
 		echo "Bootstrapping vcpkg..."; \
@@ -208,6 +214,25 @@ test-login7-encoding: debug
 	@echo ""
 	@echo "Running LOGIN7 + simdutf unit test..."
 	build/test/test_login7_encoding
+
+# LOGIN7 response parser tests (issue #164 State byte + #183 length clamps +
+# fuzz-found FEDAUTHINFO/ENVCHANGE OOB fixes). Same TDS-only source set as
+# test-login7-encoding; mirrors what .github/workflows/ci.yml compiles.
+test-login-error-state: debug
+	@echo "Building LOGIN7 response-parser unit test..."
+	@mkdir -p build/test
+	@if [ -z "$(LOGIN7_TEST_VCPKG_TRIPLET)" ]; then \
+		echo "ERROR: $(LOGIN7_TEST_VCPKG_INSTALLED) has no triplet subdir; run 'make debug' first." >&2; \
+		exit 1; \
+	fi
+	$(CXX) $(LOGIN7_TEST_FLAGS) $(LOGIN7_TEST_INCLUDES) \
+	    test/cpp/test_login_error_state.cpp \
+	    $(LOGIN7_TEST_SOURCES) \
+	    $(LOGIN7_TEST_LIBS) \
+	    -o build/test/test_login_error_state
+	@echo ""
+	@echo "Running LOGIN7 response-parser unit test..."
+	build/test/test_login_error_state
 
 # Spec 053 (#161): lazy GSSAPI/krb5 runtime loader unit test.
 # Pure in-memory — does NOT need SQL Server or a KDC. On Linux it links only
