@@ -7,7 +7,7 @@
   </defs>
   <rect x="0" y="0" width="760" height="280" rx="10" fill="#ffffff" stroke="#e3e8ee"/>
   <text x="56" y="26" font-size="15" font-weight="700" fill="#2b3a4a">DuckDB mssql extension &#8212; weekly downloads</text>
-  <text x="736" y="26" font-size="12" fill="#8a94a6" text-anchor="end">56,130/wk total</text>
+  <text x="736" y="26" font-size="12" fill="#8a94a6" text-anchor="end">26,113/wk total</text>
   <line x1="56.0" y1="232.0" x2="736.0" y2="232.0" stroke="#e3e8ee" stroke-width="1"/>
   <line x1="56.0" y1="185.0" x2="736.0" y2="185.0" stroke="#e3e8ee" stroke-width="1"/>
   <line x1="56.0" y1="138.0" x2="736.0" y2="138.0" stroke="#e3e8ee" stroke-width="1"/>
@@ -18,54 +18,55 @@
   <text x="48.0" y="138.0" font-size="11" fill="#8a94a6" text-anchor="end" dominant-baseline="middle">50k</text>
   <text x="48.0" y="91.0" font-size="11" fill="#8a94a6" text-anchor="end" dominant-baseline="middle">75k</text>
   <text x="48.0" y="44.0" font-size="11" fill="#8a94a6" text-anchor="end" dominant-baseline="middle">100k</text>
-  <polygon points="56.0,232.0 56.0,231.4 75.4,230.6 94.9,230.6 114.3,230.3 133.7,229.7 153.1,229.3 172.6,224.9 192.0,221.5 211.4,221.8 230.9,208.5 250.3,218.4 269.7,227.3 289.1,227.4 308.6,227.4 328.0,226.9 347.4,226.9 366.9,225.9 386.3,225.0 405.7,223.8 425.1,224.3 444.6,221.4 464.0,218.4 483.4,221.1 502.9,218.9 522.3,217.0 541.7,218.6 561.1,205.6 580.6,198.7 600.0,141.6 619.4,128.8 638.9,122.4 658.3,120.6 677.7,133.5 697.1,123.3 716.6,113.4 736.0,126.5 736.0,232.0" fill="url(#area)"/>
-  <polyline points="56.0,231.4 75.4,230.6 94.9,230.6 114.3,230.3 133.7,229.7 153.1,229.3 172.6,224.9 192.0,221.5 211.4,221.8 230.9,208.5 250.3,218.4 269.7,227.3 289.1,227.4 308.6,227.4 328.0,226.9 347.4,226.9 366.9,225.9 386.3,225.0 405.7,223.8 425.1,224.3 444.6,221.4 464.0,218.4 483.4,221.1 502.9,218.9 522.3,217.0 541.7,218.6 561.1,205.6 580.6,198.7 600.0,141.6 619.4,128.8 638.9,122.4 658.3,120.6 677.7,133.5 697.1,123.3 716.6,113.4 736.0,126.5" fill="none" stroke="#f6c344" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <polygon points="56.0,232.0 56.0,231.4 74.9,230.6 93.8,230.6 112.7,230.3 131.6,229.7 150.4,229.3 169.3,224.9 188.2,221.5 207.1,221.8 226.0,208.5 244.9,218.4 263.8,227.3 282.7,227.4 301.6,227.4 320.4,226.9 339.3,226.9 358.2,225.9 377.1,225.0 396.0,223.8 414.9,224.3 433.8,221.4 452.7,218.4 471.6,221.1 490.4,218.9 509.3,217.0 528.2,218.6 547.1,205.6 566.0,198.7 584.9,141.6 603.8,128.8 622.7,122.4 641.6,120.6 660.4,133.5 679.3,123.3 698.2,113.4 717.1,182.9 736.0,182.9 736.0,232.0" fill="url(#area)"/>
+  <polyline points="56.0,231.4 74.9,230.6 93.8,230.6 112.7,230.3 131.6,229.7 150.4,229.3 169.3,224.9 188.2,221.5 207.1,221.8 226.0,208.5 244.9,218.4 263.8,227.3 282.7,227.4 301.6,227.4 320.4,226.9 339.3,226.9 358.2,225.9 377.1,225.0 396.0,223.8 414.9,224.3 433.8,221.4 452.7,218.4 471.6,221.1 490.4,218.9 509.3,217.0 528.2,218.6 547.1,205.6 566.0,198.7 584.9,141.6 603.8,128.8 622.7,122.4 641.6,120.6 660.4,133.5 679.3,123.3 698.2,113.4 717.1,182.9 736.0,182.9" fill="none" stroke="#f6c344" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
   <circle cx="56.0" cy="231.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="75.4" cy="230.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="94.9" cy="230.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="114.3" cy="230.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="133.7" cy="229.7" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="153.1" cy="229.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="172.6" cy="224.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="192.0" cy="221.5" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="211.4" cy="221.8" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="230.9" cy="208.5" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="250.3" cy="218.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="269.7" cy="227.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="289.1" cy="227.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="308.6" cy="227.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="328.0" cy="226.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="347.4" cy="226.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="366.9" cy="225.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="386.3" cy="225.0" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="405.7" cy="223.8" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="425.1" cy="224.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="444.6" cy="221.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="464.0" cy="218.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="483.4" cy="221.1" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="502.9" cy="218.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="522.3" cy="217.0" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="541.7" cy="218.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="561.1" cy="205.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="580.6" cy="198.7" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="600.0" cy="141.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="619.4" cy="128.8" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="638.9" cy="122.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="658.3" cy="120.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="677.7" cy="133.5" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="697.1" cy="123.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="716.6" cy="113.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="736.0" cy="126.5" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
-  <circle cx="736.0" cy="126.5" r="4.5" fill="#f6c344"/><text x="736.0" y="114.5" font-size="13" font-weight="700" fill="#d4960b" text-anchor="end">56,130</text>
+  <circle cx="74.9" cy="230.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="93.8" cy="230.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="112.7" cy="230.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="131.6" cy="229.7" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="150.4" cy="229.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="169.3" cy="224.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="188.2" cy="221.5" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="207.1" cy="221.8" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="226.0" cy="208.5" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="244.9" cy="218.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="263.8" cy="227.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="282.7" cy="227.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="301.6" cy="227.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="320.4" cy="226.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="339.3" cy="226.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="358.2" cy="225.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="377.1" cy="225.0" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="396.0" cy="223.8" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="414.9" cy="224.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="433.8" cy="221.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="452.7" cy="218.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="471.6" cy="221.1" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="490.4" cy="218.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="509.3" cy="217.0" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="528.2" cy="218.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="547.1" cy="205.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="566.0" cy="198.7" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="584.9" cy="141.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="603.8" cy="128.8" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="622.7" cy="122.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="641.6" cy="120.6" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="660.4" cy="133.5" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="679.3" cy="123.3" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="698.2" cy="113.4" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="717.1" cy="182.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="736.0" cy="182.9" r="2.6" fill="#fff" stroke="#f6c344" stroke-width="2"/>
+  <circle cx="736.0" cy="182.9" r="4.5" fill="#f6c344"/><text x="736.0" y="170.9" font-size="13" font-weight="700" fill="#d4960b" text-anchor="end">26,113</text>
   <text x="56.0" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">01-25</text>
-  <text x="133.7" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">02-22</text>
-  <text x="211.4" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">03-22</text>
-  <text x="289.1" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">04-19</text>
-  <text x="366.9" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">05-17</text>
-  <text x="444.6" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">06-14</text>
-  <text x="522.3" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">07-12</text>
-  <text x="600.0" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">08-09</text>
-  <text x="677.7" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">09-06</text>
-  <text x="736.0" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">09-21</text>
+  <text x="131.6" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">02-22</text>
+  <text x="207.1" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">03-22</text>
+  <text x="282.7" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">04-19</text>
+  <text x="358.2" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">05-17</text>
+  <text x="433.8" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">06-14</text>
+  <text x="509.3" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">07-12</text>
+  <text x="584.9" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">08-09</text>
+  <text x="660.4" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">09-06</text>
+  <text x="736.0" y="250.0" font-size="10" fill="#8a94a6" text-anchor="middle">09-28</text>
   <text x="56" y="270" font-size="10" fill="#aab2c0">Source: duckdb.org/community_extensions/download_metrics &#183; downloads in the trailing 7 days, sampled weekly</text>
 </svg>
